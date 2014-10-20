@@ -94,6 +94,6 @@ if __name__ == "__main__":
 			args.n = args.n.split('/')[-1]
 	else:
 		args.n = ''
-	print('['+args.n+' requires:]')
+	print('['+args.n+' requires]')
 	for r in extract_requirements(args.file, args.n):
 		print('\t'+r)
