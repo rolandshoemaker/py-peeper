@@ -3,7 +3,7 @@ from distutils.core import setup
 
 setup(
 	name = "Peeper",
-	packages = ['Peeper'],
+	packages = ['peeper'],
 	scripts=['bin/peeper.py'],
 	version = "0.1",
 	license = "BSD License",
